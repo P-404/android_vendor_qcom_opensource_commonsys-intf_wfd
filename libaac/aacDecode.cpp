@@ -29,7 +29,7 @@
 
 #include "aacDecode.h"
 #include "aacdecoder_lib.h"
-#include <utils/Log.h>
+#include <log/log.h>
 #include <string.h>
 
 aacDecode::aacDecode() {

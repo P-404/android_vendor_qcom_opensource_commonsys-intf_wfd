@@ -10,8 +10,6 @@ LOCAL_C_INCLUDES += $(TOP)/external/aac/libAACenc/include
 LOCAL_C_INCLUDES += $(TOP)/external/aac/libAACdec/include
 LOCAL_C_INCLUDES += $(TOP)/external/aac/libSYS/include
 
-LOCAL_HEADER_LIBRARIES += libutils_headers
-
 LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_STATIC_LIBRARIES := libFraunhoferAAC
 

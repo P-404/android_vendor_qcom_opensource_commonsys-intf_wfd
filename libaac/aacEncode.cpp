@@ -29,7 +29,7 @@
 
 #include "aacEncode.h"
 #include "aacenc_lib.h"
-#include <utils/Log.h>
+#include <log/log.h>
 #include <string.h>
 
 struct aacInfo
