@@ -17,7 +17,7 @@ cc_library_shared {
 
     vendor: true,
 
-    cflags: ["-O0"],
+    cflags: ["-Werror"],
 
     sanitize: {
         integer_overflow: true,
